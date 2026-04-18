@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="1.45" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rashm\IdeaProjects\cucumber-demo-project\target\test-classes;C:\Users\rashm\IdeaProjects\cucumber-demo-project\target\classes;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-java\7.34.3\cucumber-java-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-core\7.34.3\cucumber-core-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-gherkin\7.34.3\cucumber-gherkin-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.3\cucumber-gherkin-messages-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\messages-ndjson\0.3.2\messages-ndjson-0.3.2.jar;C:\Users\rashm\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\rashm\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\rashm\.m2\repository\io\cucumber\datatable\7.34.3\datatable-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-plugin\7.34.3\cucumber-plugin-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\docstring\7.34.3\docstring-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\rashm\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-testng\7.34.3\cucumber-testng-7.34.3.jar;C:\Users\rashm\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\rashm\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\rashm\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\rashm\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\rashm\.m2\repository\net\masterthought\cucumber-reporting\5.11.0\cucumber-reporting-5.11.0.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.2\jackson-databind-2.21.2.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.2\jackson-core-2.21.2.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.21.2\jackson-datatype-jsr310-2.21.2.jar;C:\Users\rashm\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\rashm\.m2\repository\joda-time\joda-time\2.14.1\joda-time-2.14.1.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-configuration2\2.13.0\commons-configuration2-2.13.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;C:\Users\rashm\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-text\1.15.0\commons-text-1.15.0.jar;C:\Users\rashm\.m2\repository\org\jsoup\jsoup\1.22.1\jsoup-1.22.1.jar;C:\Users\rashm\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20260313.1\owasp-java-html-sanitizer-20260313.1.jar;C:\Users\rashm\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20260313.1\java8-shim-20260313.1.jar;C:\Users\rashm\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20260313.1\java10-shim-20260313.1.jar;C:\Users\rashm\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.17\jcl-over-slf4j-2.0.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\rashm\AppData\Local\Temp\surefire8152718322645429677\surefirebooter-20260417074757848_3.jar C:\Users\rashm\AppData\Local\Temp\surefire8152718322645429677 2026-04-17T07-47-57_025-jvmRun1 surefire-20260417074757848_1tmp surefire_0-20260417074757848_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\rashm\IdeaProjects\cucumber-demo-project\target\test-classes;C:\Users\rashm\IdeaProjects\cucumber-demo-project\target\classes;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-java\7.34.3\cucumber-java-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-core\7.34.3\cucumber-core-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-gherkin\7.34.3\cucumber-gherkin-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.3\cucumber-gherkin-messages-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\messages-ndjson\0.3.2\messages-ndjson-0.3.2.jar;C:\Users\rashm\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\rashm\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\rashm\.m2\repository\io\cucumber\datatable\7.34.3\datatable-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-plugin\7.34.3\cucumber-plugin-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\docstring\7.34.3\docstring-7.34.3.jar;C:\Users\rashm\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\rashm\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-testng\7.34.3\cucumber-testng-7.34.3.jar;C:\Users\rashm\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\rashm\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\rashm\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\rashm\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\rashm\.m2\repository\net\masterthought\cucumber-reporting\5.11.0\cucumber-reporting-5.11.0.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.2\jackson-databind-2.21.2.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.2\jackson-core-2.21.2.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.21.2\jackson-datatype-jsr310-2.21.2.jar;C:\Users\rashm\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\rashm\.m2\repository\joda-time\joda-time\2.14.1\joda-time-2.14.1.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-configuration2\2.13.0\commons-configuration2-2.13.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;C:\Users\rashm\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-text\1.15.0\commons-text-1.15.0.jar;C:\Users\rashm\.m2\repository\org\jsoup\jsoup\1.22.1\jsoup-1.22.1.jar;C:\Users\rashm\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20260313.1\owasp-java-html-sanitizer-20260313.1.jar;C:\Users\rashm\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20260313.1\java8-shim-20260313.1.jar;C:\Users\rashm\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20260313.1\java10-shim-20260313.1.jar;C:\Users\rashm\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.17\jcl-over-slf4j-2.0.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rashm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\rashm\IdeaProjects\cucumber-demo-project"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\rashm\AppData\Local\Temp\surefire8152718322645429677\surefirebooter-20260417074757848_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36-3646"/>
+    <property name="user.name" value="rashm"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\plugins\maven\lib\intellij.maven.rt\maven-event-listener.jar"/>
+    <property name="localRepository" value="C:\Users\rashm\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rashm\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2026.1"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="C:\Users\rashm\IdeaProjects\cucumber-demo-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-24\bin;node_modules;C:\Program Files\Git\cmd;%MAVEN_HOME%\bin;C:\Program Files\apache-maven-3.9.12\bin;C:\Program Files\allure-2.36.0\bin;C:\Users\rashm\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\nodejs;C:\Users\rashm\AppData\Local\Programs\Python\Launcher\;C:\Users\rashm\AppData\Local\Microsoft\WindowsApps;C:\Users\rashm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rashm\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\rashm\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24+36-3646"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\rashm\.m2\repository"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login with valid credentials&quot;, &quot;Login functionality&quot;](1)" classname="runner.TestRunner" time="0.147">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Login with valid credentials           &amp#27;[90m# src/test/resources/login.feature:3&amp#27;[39m
+User is on login page
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is on login page&amp#27;[39m                  &amp#27;[90m# StepDefinitions.LoginSteps.user_is_on_login_page()&amp#27;[39m
+Entered valid credentials
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser enters valid username and password&amp#27;[39m &amp#27;[90m# StepDefinitions.LoginSteps.valid_credentials()&amp#27;[39m
+Clicked login button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks on login button&amp#27;[39m                   &amp#27;[90m# StepDefinitions.LoginSteps.click_login()&amp#27;[39m
+Login success
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22muser should be navigated to home page&amp#27;[39m   &amp#27;[90m# StepDefinitions.LoginSteps.success()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with invalid credentials&quot;, &quot;Login functionality&quot;](2)" classname="runner.TestRunner" time="0.002">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Login with invalid credentials           &amp#27;[90m# src/test/resources/login.feature:9&amp#27;[39m
+User is on login page
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is on login page&amp#27;[39m                    &amp#27;[90m# StepDefinitions.LoginSteps.user_is_on_login_page()&amp#27;[39m
+Entered invalid credentials
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser enters invalid username and password&amp#27;[39m &amp#27;[90m# StepDefinitions.LoginSteps.invalid_credentials()&amp#27;[39m
+Clicked login button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks on login button&amp#27;[39m                     &amp#27;[90m# StepDefinitions.LoginSteps.click_login()&amp#27;[39m
+Login failed
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22merror message should be displayed&amp#27;[39m         &amp#27;[90m# StepDefinitions.LoginSteps.error()&amp#27;[39m
+]]></system-out>
+  </testcase>
+</testsuite>
