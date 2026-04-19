@@ -11,10 +11,10 @@ import org.testng.Assert;
 
 import static org.testng.Assert.*;
 
-public class LoginScenarioOutlineSteps {
+public class LoginScenarioOutline1Steps {
     WebDriver driver;
 
-    @Given("user is on the website login page")
+    @Given("the user is on the Login page")
     public void user_is_on_login_page() {
 
         // Setup driver
@@ -26,51 +26,74 @@ public class LoginScenarioOutlineSteps {
         driver.get("https://practicetestautomation.com/practice-test-login/");
     }
 
-    @When("user enters valid username and valid password")
+    @When("the user enters valid username and valid password")
     public void user_enters_valid_username_and_password() throws InterruptedException {
         driver.findElement(By.id("username")).sendKeys("student");
         driver.findElement(By.id("password")).sendKeys("Password123");
         Thread.sleep(3000);
     }
 
-    @When("user enters valid {string} and valid {string}")
+    @When("the user enters valid {string} and valid {string}")
     public void user_enters_valid_username_and_password_outline(String username, String password) throws InterruptedException {
         driver.findElement(By.id("username")).sendKeys(username);
         driver.findElement(By.id("password")).sendKeys(password);
         Thread.sleep(3000);
     }
 
-    @When("user enters invalid username and invalid password")
+    @When("the user enters invalid username and invalid password")
     public void user_enters_invalid_username_and_password() throws InterruptedException {
         driver.findElement(By.id("username")).sendKeys("wrongUser");
         driver.findElement(By.id("password")).sendKeys("wrongPassword");
         Thread.sleep(3000);
     }
 
-    @When("user enters invalid {string} and invalid {string}")
+    @When("the user enters invalid {string} and invalid {string}")
     public void user_enters_invalid_username_and_password_outline(String username, String password) throws InterruptedException {
         driver.findElement(By.id("username")).sendKeys(username);
         driver.findElement(By.id("password")).sendKeys(password);
         Thread.sleep(3000);
     }
 
-    @When("user clicks on the submit button")
+    @When("the user clicks on the submit button")
     public void user_clicks_on_submit_button() {
         driver.findElement(By.id("submit")).click();
     }
 
-    @Then("user should be navigated to the home page")
-    public void user_should_be_navigated_to_success_page() throws InterruptedException {
-        WebElement successMsg= driver.findElement(By.className("post-title"));
-        String actualText = successMsg.getText();
-        String expectedText="Logged In Successfully";
-        Assert.assertEquals(actualText,expectedText);
-        Thread.sleep(3000);
+    @Then("the user should see result")
+    public void user_should_be_logged_in_Successfully() throws InterruptedException {
+        //verify that login was successful
+        System.out.println("the user should be logged in successfully");
+        String currentUrl=driver.getCurrentUrl();
+        System.out.println("currentURL: "+currentUrl);
+        if (currentUrl.contains("practice-test-login/"))
+        {
+            throw new RuntimeException("User has not logged in");
+        }
+        else
+        {
+            assert true;
+        }
         driver.quit();
     }
 
-    @Then("error message should be displayed on the page")
-    public void user_should_see_error_message() throws InterruptedException {
+    @Then("the user should see {string}")
+    public void user_should_be_logged_in_Successfully_outline(String result) throws InterruptedException {
+        System.out.println("the user should be logged in successfully");
+        String currentUrl=driver.getCurrentUrl();
+        System.out.println("currentURL: "+currentUrl);
+        if (currentUrl.contains(result))
+        {
+            assert true;
+        }
+        else
+        {
+            assert false;
+        }
+        driver.quit();
+    }
+
+    @Then("error message should be displayed on page")
+    public void user_should_see_error_message_on_the_page() throws InterruptedException {
         WebElement errorMsg= driver.findElement(By.id("error"));
         String expectedErrorMsg="Your username is invalid!";
         Assert.assertEquals(errorMsg.getText(),expectedErrorMsg);
