@@ -1,6 +1,9 @@
+@Login #feature level tag
 Feature: Login functionality
 
   #Scenario outline is just to avoid hardcoding data
+
+  @Sanity  #scenario level tag
   Scenario Outline: Login with valid credentials
     Given user is on the website login page
     When user enters valid "<username>" and valid "<password>"
@@ -10,7 +13,7 @@ Feature: Login functionality
       |username  |password   |
       |student   |Password123|
 
-
+  @Regression @Smoke
   Scenario Outline: Login with invalid credentials
     Given user is on the website login page
     When user enters invalid "<username>" and invalid "<password>"

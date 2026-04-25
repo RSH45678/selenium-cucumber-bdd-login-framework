@@ -1,2 +1,9 @@
-runner\TestRunner.class
+StepDefinitions\AppLoginSteps.class
+StepDefinitions\LoginScenarioOutlineSteps.class
+StepDefinitions\Hooks.class
+StepDefinitions\AdditionSteps.class
+StepDefinitions\ApiSteps.class
+StepDefinitions\Web_LoginPage_Steps.class
 StepDefinitions\LoginSteps.class
+runner\TestRunner.class
+StepDefinitions\LoginScenarioOutline1Steps.class
